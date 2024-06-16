@@ -10,12 +10,3 @@ fun Array<Array<Char>>.display(rowLabelWidth: Int = this.size.toString().length,
         println(row.joinToString(" ", prefix = "$r ".padStart(rowLabelWidth + 1), transform = transform))
     }
 }
-
-// Examples to call the helper extension functions.
-class ArrayHelpers {
-    companion object {
-        fun demo2dArrayDisplay() {
-            Array(101) { Array(120) { '~' } }.display()
-        }
-    }
-}
