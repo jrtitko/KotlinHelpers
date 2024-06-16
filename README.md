@@ -1,0 +1,2 @@
+I am experimenting with this project structure of having the applications all together in a single project instead of individual modules associated with a project.
+If I keep this structure, then KotlinHelpers needs to be moved up 1 level in my local directory structure.
