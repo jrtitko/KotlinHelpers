@@ -1,7 +1,7 @@
 plugins {
 //    application                         // For this repo, do we want it to be an application?
     kotlin("jvm") version "1.9.23"
-//    id("java-test-fixtures")
+    id("java-test-fixtures")
 }
 
 group = "com.industriousgnomes"
